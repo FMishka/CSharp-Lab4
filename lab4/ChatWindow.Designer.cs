@@ -1,4 +1,4 @@
-﻿namespace lab4
+namespace lab4
 {
     partial class ChatWindow
     {
@@ -44,26 +44,26 @@
             // 
             // Sending
             // 
-            this.Sending.Location = new System.Drawing.Point(681, 406);
+            this.Sending.Location = new System.Drawing.Point(713, 382);
             this.Sending.Name = "Sending";
             this.Sending.Size = new System.Drawing.Size(75, 23);
             this.Sending.TabIndex = 3;
-            this.Sending.Text = "button1";
+            this.Sending.Text = "Отправить";
             this.Sending.UseVisualStyleBackColor = true;
             this.Sending.Click += new System.EventHandler(this.Sending_Click);
             // 
             // Message
             // 
-            this.Message.Location = new System.Drawing.Point(12, 411);
+            this.Message.Location = new System.Drawing.Point(12, 382);
             this.Message.Name = "Message";
-            this.Message.Size = new System.Drawing.Size(429, 23);
+            this.Message.Size = new System.Drawing.Size(695, 23);
             this.Message.TabIndex = 4;
             // 
             // ChatWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 414);
             this.Controls.Add(this.Message);
             this.Controls.Add(this.Sending);
             this.Controls.Add(this.Chat);
